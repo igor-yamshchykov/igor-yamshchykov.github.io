@@ -1,0 +1,90 @@
+.content {
+    background: #fff;
+    margin-top: 100px;
+}
+
+.hedgehog { 
+    position: relative;
+    
+    width: 180px;
+    height: 140px;
+
+    margin: 0 auto;
+    border-radius: 200px 200px 65px 65px;
+    
+    background: #aa6d34;    
+}
+
+.spike-* {
+    position: absolute;
+
+    background: #5a3f24;
+}
+
+.hedgehog .head {
+    position: relative;
+}
+
+.eyes {
+    padding-top: 25px;
+
+    text-align: center;
+}
+
+.right-eye, .left-eye {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+
+    background: #fff;
+}
+
+.right-eye {
+    border-radius: 55% 45% 45% 45%;
+}
+
+.left-eye {
+    border-radius: 45% 55% 45% 45%;
+}
+
+.pupil {
+    width: 25px;
+    height: 25px;
+    margin: 6px;
+    border-radius: 50%;
+
+    background: #000;
+}
+
+.nose {
+    width: 35px;
+    height: 20px;
+    border-radius: 50%;
+    background: #000;
+    margin: 5px auto;
+}
+
+.mouth {
+    position: relative;
+
+    width: 100px;
+    height: 10px;
+    border-radius: 30%;
+    margin: 0 auto;
+
+    background: #5a3f24;
+}
+
+.mouth-fill {
+    position: absolute;
+    left: 0;
+    right: 0;
+
+    width: 95px;
+    margin: 0 auto;
+    border-radius: 25%;
+    height: 5px;
+
+    background: #aa6d34;
+}
+
