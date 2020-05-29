@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap" rel="stylesheet"> 
+   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">  
     <link rel="stylesheet" href="./css/font-awesome.all.min.css"></script>
     <link rel="stylesheet" href="./css/styles.css">
     <title>Ihor Yamshchykov CV</title>
@@ -13,7 +13,7 @@
     <div class="content">
       <div class="container">
         <div class="row">
-          <div class="col-12 col-md-3 left-bar" style="background: #44536e">
+          <div class="col-12 col-md-3 left-bar">
             <div class="photo mx-auto mt-3">
               <img src="./img/16735781_10211552097658919_53054305_o.png" alt="Ihor Yamshchykov" class="img-fluid">
             </div>
@@ -40,7 +40,7 @@
             <section aria-label="languages-info">
               <h6 class="title text-light">Languages:</h6>
               <div class="table-responsive">
-                <table class="table-borderless text-light">
+                <table class="table-borderless text-light w-100">
                   <thead class="border-bottom border-secondary">
                     <tr>
                       <th scope="col"></th>
@@ -67,7 +67,7 @@
             <div class="d-flex  border-bottom text-light mt-2 mb-2"></div>
             <section aria-label="programming languages">
               <h6 class="title text-light">Programming Languages:</h6>
-              <table class="table-borderless text-light">
+              <table class="table-borderless text-light w-100">
                 <tbody>
                   <tr>
                     <td>Python</td>
@@ -83,7 +83,7 @@
             <div class="d-flex  border-bottom text-light mt-2 mb-2"></div>
             <section aria-label="frameworks">
               <h6 class="title text-light">Frameworks:</h6>
-              <table class="table-borderless text-light">
+              <table class="table-borderless text-light w-100">
                 <tbody>
                   <tr>
                     <td>Python</td>
@@ -113,7 +113,7 @@
             <div class="d-flex  border-bottom text-light mt-2 mb-2"></div>
             <section aria-label="databases">
               <h6 class="title text-light">Databases:</h6>
-              <table class="table-borderless text-light">
+              <table class="table-borderless text-light w-100">
                 <tbody>
                   <tr>
                     <td>PostgreSQL</td>
@@ -383,6 +383,60 @@
                 </div>
               </div>
             </section>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="d-print-none download-button">
+      <i id="download-button" class="fas fa-download" data-toggle="modal" data-target="#saveModal"></i>
+    </div>
+    <div class="modal fade d-print-none" id="saveModal" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="saveModal">Print</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">  
+            Please try not to waste paper if it's possible, you can share the link to this CV instead, or save it as PDF.
+            To save it as PDF click the "Print" button below and change print option to "Save as pdf", please make sure to allow print of background colors to preserve the look of the document.
+            <div class="container">
+              <div class="row">
+                <div class="col-6">
+                  <div class="text-center">
+                    Firefox
+                  </div>
+                  <img src="./img/guide/firefox/advanced.png" alt="enable advanced print settings" class="img-fluid guide-img">
+                  <img src="./img/guide/firefox/color.png" alt="enable background color" class="img-fluid mt-1 guide-img">
+                  <img src="./img/guide/firefox/pdf.png" alt="save to pdf" class="img-fluid mt-1 guide-img">
+                </div>
+                <div class="col-6">
+                  <div class="text-center">
+                    Chrome
+                  </div>
+                  <img src="./img/guide/chrome/chrome.png" alt="save to pdf" class="img-fluid guide-img">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button id="saveCVButton" type="button" class="btn btn-primary">Print</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade d-print-none" id="guideModal" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">  
+            <img src="" alt="" id="guide-preview" class="img-fluid">
           </div>
         </div>
       </div>
