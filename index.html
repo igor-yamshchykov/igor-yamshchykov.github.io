@@ -1,71 +1,396 @@
 <!doctype html>
-
 <html lang="en">
   <head>
     <meta charset="utf-8">
-
-    <title>Hedgehog</title>
-    <meta name="description" content="Just a css hedgehog">
-    <meta name="author" content="iyamshchykov">
-
-    <link rel="stylesheet" href="css/styles.css?v=1.0">
-    <script src="./js/scripts.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./css/font-awesome.all.min.css"></script>
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Ihor Yamshchykov CV</title>
   </head>
-
   <body>
     <div class="content">
-      <div class="hedgehog-container">
-        <div class="spike-1"></div>
-        <div class="spike-2"></div>
-        <div class="spike-3"></div>
-        <div class="spike-4"></div>
-        <div class="spike-5"></div>
-        <div class="spike-6"></div>
-        <div class="spike-7"></div>
-        <div class="spike-8"></div>
-        <div class="spike-9"></div>
-        <div class="spike-10"></div>
-        <div class="spike-11"></div>
-        <div class="spike-12"></div>
-        <div class="spike-13"></div>
-        <div class="spike-14"></div>
-        <div class="head">
-          <div class="eyes">
-            <div class="right-eye">
-              <div class="pupil">
-                <div class="light"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-3 left-bar" style="background: #44536e">
+            <div class="photo mx-auto mt-3">
+              <img src="./img/16735781_10211552097658919_53054305_o.png" alt="Ihor Yamshchykov" class="img-fluid">
+            </div>
+            <h5 class="name mt-2 mx-auto text-center text-light">Ihor Yamshchykov</h5>
+            <div class="d-flex  border-bottom text-light mt-2 mb-2"></div>
+            <section aria-label="contact-section" class="mt-2">
+              <h6 class="title text-light">Contacts:</h6>
+              <div class="contacts ml-2">
+                <div class="text-light"><i class="fab fa-skype"></i> igor_yamshikov</div>
+                <div class="text-light">
+                  <i class="fab fa-linkedin"></i>
+                  <a href="https://www.linkedin.com/in/iyamshchykov" class="text-light linkedin-link">linkedin.com/in/iyamshchykov</a>
+                </div>
               </div>
-            </div>
-            <div class="left-eye">
-              <div class="pupil">
-                <div class="light"></div>
+            </section>
+            <div class="d-flex  border-bottom text-light mt-2 mb-2"></div>
+            <section aria-label="location-info">
+              <h6 class="title text-light">Location:</h6>
+              <div class="location ml-2">
+                <div class="text-light"><i class="fas fa-map-marker-alt"></i> Lviv, Ukraine</div>
               </div>
-            </div>
-            <div 
-              class="nose" 
-              onmousedown="onNoseTouch()"
-              onmouseup="onNoseRelease()"
-              ontouchstart="onNoseTouch()"
-              ontouchend="onNoseRelease()"
-              >
-            </div>
-            <div class="mouth">
-              <div class="mouth-fill"></div>
-            </div>
+            </section>
+            <div class="d-flex border-bottom text-light mt-2 mb-2"></div>
+            <section aria-label="languages-info">
+              <h6 class="title text-light">Languages:</h6>
+              <div class="table-responsive">
+                <table class="table-borderless text-light">
+                  <thead class="border-bottom border-secondary">
+                    <tr>
+                      <th scope="col"></th>
+                      <th scope="col" class="text-center">Level</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Ukrainian</td>
+                      <td class="text-center">Native</td>
+                    </tr>
+                    <tr>
+                      <td>English</td>
+                      <td class="text-center">High Intermediate</td>
+                    </tr>
+                    <tr>
+                      <td>Polish</td>
+                      <td class="text-center">Low Intermediate</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </section>
+            <div class="d-flex  border-bottom text-light mt-2 mb-2"></div>
+            <section aria-label="programming languages">
+              <h6 class="title text-light">Programming Languages:</h6>
+              <table class="table-borderless text-light">
+                <tbody>
+                  <tr>
+                    <td>Python</td>
+                    <td class="text-center">( 3+ years )</td>
+                  </tr>
+                  <tr>
+                    <td>Javascript</td>
+                    <td class="text-center">( 5+ years )</td>
+                  </tr>
+                </tbody>
+              </table>
+            </section>
+            <div class="d-flex  border-bottom text-light mt-2 mb-2"></div>
+            <section aria-label="frameworks">
+              <h6 class="title text-light">Frameworks:</h6>
+              <table class="table-borderless text-light">
+                <tbody>
+                  <tr>
+                    <td>Python</td>
+                    <td>
+                      <ul>
+                        <li>Django</li>
+                        <li>Flask</li>
+                        <li>Tornado</li>
+                        <li>DRF</li>
+                      </ul>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Javascript</td>
+                    <td>
+                      <ul>
+                        <li>Express</li>
+                        <li>Koa</li>
+                        <li>React</li>
+                        <li>Ember</li>
+                      </ul>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </section>
+            <div class="d-flex  border-bottom text-light mt-2 mb-2"></div>
+            <section aria-label="databases">
+              <h6 class="title text-light">Databases:</h6>
+              <table class="table-borderless text-light">
+                <tbody>
+                  <tr>
+                    <td>PostgreSQL</td>
+                    <td class="text-center">( 3+ years )</td>
+                  </tr>
+                  <tr>
+                    <td>Redis</td>
+                    <td class="text-center">( 3+ years )</td>
+                  </tr>
+                  <tr>
+                    <td>MySQL</td>
+                    <td class="text-center">( 2+ years )</td>
+                  </tr>
+                  <tr>
+                    <td>MongoDB</td>
+                    <td class="text-center">( 2+ years )</td>
+                  </tr>
+                </tbody>
+              </table>
+            </section>
+            <div class="d-flex  border-bottom text-light mt-2 mb-2"></div>
+            <section aria-label="developer-tools">
+              <h6 class="title text-light">Web Services/Tools:</h6>
+              <div class="text-light">AWS, Digital Ocean, Docker, Vargant, NGINX, WSGI, Jenkins, CircleCI</div>
+            </section>
+            <div class="d-flex  border-bottom text-light mt-2 mb-2"></div>
+            <section aria-label="secondary-tools">
+              <h6 class="title text-light">Also Familiar:</h6>
+              <div class="text-light">HTML, CSS, Responsive Web Design, Bootstrap</div>
+            </section>
           </div>
-        </div>
-        <div class="body">
-          <div class="belly"></div>
-        </div>
-        <div class="legs">
-          <div class="right-leg"></div>
-          <div class="left-leg"></div>
-        </div>
-        <div class="front-legs">
-          <div class="right-leg"></div>
-          <div class="left-leg"></div>
+          <div class="col-12 col-md-9 right-bar">
+            <section aria-label="summary">
+              <h6 class="mt-3">Summary</h6> 
+              <div class="summary mt-1 text-dark">  I have over 6 years of total experience working with web development. I am familiar with many popular programming languages, frameworks, and methodologies, however, most I am most efficient with Python and javascript.
+  During my career, I was developing different web applications, websites, and web services. 
+  Backend or integration work is preferable, but I can also work with frontend parts. I've gone through all of the software development life cycle processes and I am able to set up initial project architecture, develop, test, and release the application.
+  I will be most efficient in web or web-related development but after some time (depending on the project complexity) I can dive into any type of software development.</div>
+            </section>
+            <div class="d-flex border-bottom text-dark mt-2 mb-2"></div>
+            <section aria-label="summary">
+              <h6 class="mt-3">Work Experience</h6>
+              <div class="d-flex experience-element">
+                <div class="logo align-self-center">
+                  <img src="./img/company-logos/reunite.png" alt="Reunite" class="img-fluid">
+                </div>
+                <div class="company-description ml-3">
+                  <div class="company-name">
+                    <b>Personal project:</b>
+                    Reunite 
+                  </div>
+                  <div class="position">
+                    <b>Position:</b>
+                    Owner/Developer 
+                  </div>
+                  <div class="term">
+                    <b>Term:</b>
+                    <span>Feb 2019 - Present</span>
+                  </div>
+                  <div class="description">
+                    <b>Description:</b>
+                    <a href="https://reunite.com.ua">reunite.com.ua</a>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex border-bottom text-dark mt-2 mb-2"></div>
+              <div class="d-flex experience-element">
+                <div class="logo align-self-center">
+                  <img src="./img/company-logos/n-ix.png" alt="N-iX" class="img-fluid">
+                </div>
+                <div class="company-description ml-3">
+                  <div class="company-name">
+                    <b>Company Name:</b>
+                    N-iX 
+                  </div>
+                  <div class="position">
+                    <b>Position:</b>
+                    Software Engineer
+                  </div>
+                  <div class="term">
+                    <b>Term:</b>
+                    <span>Sep 2017 - Present</span>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex border-bottom text-dark mt-2 mb-2"></div>
+              <div class="d-flex experience-element">
+                <div class="logo align-self-center">
+                  <img src="./img/company-logos/softserve.png" alt="SoftServe" class="img-fluid">
+                </div>
+                <div class="company-description ml-3">
+                  <div class="company-name">
+                    <b>Company Name:</b>
+                    SoftServe 
+                  </div>
+                  <div class="position">
+                    <b>Position:</b>
+                    Software Engineer
+                  </div>
+                  <div class="term">
+                    <b>Term:</b>
+                    <span>Feb 2016 - Sep 2017</span>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex border-bottom text-dark mt-2 mb-2"></div>
+              <div class="d-flex experience-element">
+                <div class="logo align-self-center">
+                  <img src="./img/company-logos/techmagic.png" alt="TechMagic" class="img-fluid">
+                </div>
+                <div class="company-description ml-3">
+                  <div class="company-name">
+                    <b>Company Name:</b>
+                    TechMagic 
+                  </div>
+                  <div class="position">
+                    <b>Position:</b>
+                    Full-Stack Javascript Developer
+                  </div>
+                  <div class="term">
+                    <b>Term:</b>
+                    <span>Aug 2015 - Feb 2016</span>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex border-bottom text-dark mt-2 mb-2"></div>
+              <div class="d-flex experience-element">
+                <div class="logo align-self-center">
+                  <img src="./img/company-logos/freeze_pro_software.png" alt="Freeze Pro Software" class="img-fluid">
+                </div>
+                <div class="company-description ml-3">
+                  <div class="company-name">
+                    <b>Company Name:</b>
+                    Freeze Pro Software 
+                  </div>
+                  <div class="position">
+                    <b>Position:</b>
+                    Web Developer
+                  </div>
+                  <div class="term">
+                    <b>Term:</b>
+                    <span>Mar 2013 - Aug 2015</span>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex border-bottom text-dark mt-2 mb-2"></div>
+              <div class="d-flex experience-element">
+                <div class="logo align-self-center">
+                  <img src="./img/company-logos/itera.png" alt="Itera Consulting" class="img-fluid">
+                </div>
+                <div class="company-description ml-3">
+                  <div class="company-name">
+                    <b>Company Name:</b>
+                    Itera Consulting
+                  </div>
+                  <div class="position">
+                    <b>Position:</b>
+                    Web Developer
+                  </div>
+                  <div class="term">
+                    <b>Term:</b>
+                    <span>Nov 2013 - Feb 2015</span>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <div class="d-flex border-bottom text-dark mt-2 mb-2"></div>
+            <section aria-label="education">
+              <h6 class="mt-3">Education</h6> 
+              <div class="d-flex align-items-center education mt-1 text-dark">
+                <i class="fas fa-university university-logo"></i>
+                <div class="education-info ml-4">
+                  <div class="name">
+                    <b>Lviv Polytechnic National University</b>
+                  </div>
+                  <div class="institute">
+                    Institute of Applied Mathematics and Fundamental Sciences
+                  </div>
+                  <div class="degree">
+                    Master's Degree, Information and communications technologies 
+                  </div>
+                </div>
+              </div>
+            </section>
+            <div class="d-flex border-bottom text-dark mt-2 mb-2"></div>
+            <section aria-label="certifications">
+              <h6 class="mt-3">Certifications</h6>
+              <a href="https://www.coursera.org/account/accomplishments/verify/ZDLBMKTXJQL6" class="certificate-element text-light">
+                <div class="d-flex certificate-wrapper">
+                  <div class="logo">
+                    <img class="img-fluid" src="./img/company-logos/coursera.jpg" />
+                  </div>
+                  <div class="certificate-details text-dark ml-4">
+                    <div class="name"><b>Capstone: Retrieving, Processing, and Visualizing Data with Python</b></div>
+                    <div class="source">Coursera</div>
+                    <div class="issued">Feb 2020</div>
+                  </div>
+                </div>
+              </a>
+              <a href="https://www.coursera.org/account/accomplishments/verify/8PBE7GAC5E8G" class="certificate-element text-light">
+                <div class="d-flex certificate-wrapper">
+                  <div class="logo">
+                    <img class="img-fluid" src="./img/company-logos/coursera.jpg" />
+                  </div>
+                  <div class="certificate-details text-dark ml-4">
+                    <div class="name"><b>Python Data Structures</b></div>
+                    <div class="source">Coursera</div>
+                    <div class="issued">Feb 2020</div>
+                  </div>
+                </div>
+              </a>
+              <a href="https://www.coursera.org/account/accomplishments/verify/82YY9W4YUA79" class="certificate-element text-light">
+                <div class="d-flex certificate-wrapper">
+                  <div class="logo">
+                    <img class="img-fluid" src="./img/company-logos/coursera.jpg" />
+                  </div>
+                  <div class="certificate-details text-dark ml-4">
+                    <div class="name"><b>Using Databases with Python</b></div>
+                    <div class="source">Coursera</div>
+                    <div class="issued">Feb 2020</div>
+                  </div>
+                </div>
+              </a>
+              <a href="https://www.coursera.org/account/accomplishments/verify/NY4ZYL92PQDH" class="certificate-element text-light">
+                <div class="d-flex certificate-wrapper">
+                  <div class="logo">
+                    <img class="img-fluid" src="./img/company-logos/coursera.jpg" />
+                  </div>
+                  <div class="certificate-details text-dark ml-4">
+                    <div class="name"><b>Using Python to Access Web Data</b></div>
+                    <div class="source">Coursera</div>
+                    <div class="issued">Feb 2020</div>
+                  </div>
+                </div>
+              </a>
+              <a href="https://www.coursera.org/account/accomplishments/verify/ZFQ6HBT4ZVEC" class="certificate-element text-light">
+                <div class="d-flex certificate-wrapper">
+                  <div class="logo">
+                    <img class="img-fluid" src="./img/company-logos/coursera.jpg" />
+                  </div>
+                  <div class="certificate-details text-dark ml-4">
+                    <div class="name"><b>Programming for Everybody (Getting Started with Python)</b></div>
+                    <div class="source">Coursera</div>
+                    <div class="issued">Feb 2020</div>
+                  </div>
+                </div>
+              </a>
+              <a href="https://www.testdome.com/cert/48147fd4de36448b8e21772f287921ee" class="certificate-element text-light">
+                <div class="d-flex certificate-wrapper">
+                  <div class="logo">
+                    <img class="img-fluid" src="./img/company-logos/testdome.png" />
+                  </div>
+                  <div class="certificate-details text-dark ml-4">
+                    <div class="name"><b>HTML/CSS, Javascript, Python Algorithms, and SQL</b></div>
+                    <div class="source">TestDome</div>
+                  </div>
+                </div>
+              </a>
+              <div class="d-flex certificate-wrapper certificate-element">
+                <div class="logo">
+                  <img class="img-fluid" src="./img/company-logos/mongo.jpg" />
+                </div>
+                <div class="certificate-details text-dark ml-4">
+                  <div class="name"><b>MongoDB for Node.js Developers</b></div>
+                  <div class="source">MongoDB, Inc.</div>
+                  <div class="issued">May 2016</div>
+                </div>
+              </div>
+            </section>
+          </div>
         </div>
       </div>
     </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="./js/font-awesome.all.min.js"></script>
+    <script src="./js/scripts.js"></script>
   </body>
 </html>

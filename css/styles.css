@@ -1,320 +1,40 @@
 body {
-  -webkit-touch-callout: none; 
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 14px;
 }
 
-.content {
-  background: #fff;
-  margin-top: 100px;
+.content .left-bar {
+  background: #44536e;
 }
 
-.hedgehog-container {
-  position: relative;
-
-  margin: 0 auto;
-  width: 180px;
-  height: 140px;
+@media print {
+  .content .left-bar {
+    background: #44536e;
+  }
 }
 
-.head {
-  position: relative;
-
-  padding-bottom: 25px;
-  border-radius: 200px 200px 65px 65px;
-
-  background: #aa6d34;    
-
-  z-index: 3;
-}
-
-.eyes {
-  padding-top: 25px;
-
-  text-align: center;
-}
-
-.right-eye, .left-eye {
-  display: inline-block;
-  width: 40px;
-  height: 40px;
-
-  background: #fff;
-}
-
-.right-eye {
-  border-radius: 55% 45% 45% 45%;
-}
-
-.left-eye {
-  border-radius: 45% 55% 45% 45%;
-}
-
-.pupil {
-  width: 25px;
-  height: 25px;
-  margin: 7px;
+.content .left-bar .photo {
+  border: 1px solid #d3d3d3;
+  padding: 2px;
+  max-width: 150px;
+  max-height: 150px;
   border-radius: 50%;
-
-  background: #000;
-
-  transition: margin 1.5s;
+  overflow: hidden;
 }
 
-.right-eye .pupil.touched {
-  margin: 14px;
+.content .left-bar .contacts .linkedin-link {
+  font-size: 12px;
 }
 
-.left-eye .pupil.touched {
-  margin-left: 0;
-  margin-top: 14px;
+.content .right-bar .summary {
+  white-space: pre-wrap; 
 }
 
-.nose {
-  width: 35px;
-  height: 20px;
-  border-radius: 50%;
-  margin: 5px auto;
-  background: #000;
-
-  cursor: pointer;
+.content .right-bar .experience-element .logo, .content .right-bar .certificate-element .logo  {
+  max-width: 56px;
+  max-height: 56px; 
 }
 
-.mouth {
-  position: relative;
-
-  width: 100px;
-  height: 10px;
-  border-radius: 30%;
-  margin: 0 auto;
-
-  background: #5a3f24;
+.content .right-bar .education .university-logo {
+  font-size: 2rem;
 }
-
-.mouth-fill {
-  position: absolute;
-  left: 0;
-  right: 0;
-
-  width: 95px;
-  margin: 0 auto;
-  border-radius: 25%;
-  height: 5px;
-
-  background: #aa6d34;
-}
-
-.body {
-  position: absolute;
-  top: 110px;
-  left: -7px;
-  width: 195px;
-  height: 110px;
-  border-radius: 45px 45px 0 0;
-  background: #7e5632;
-  z-index: 1;
-}
-
-.belly {
-  margin: 0 auto;
-  width: 130px;
-  height: 100px;
-  border-radius: 40%;
-  background: #5a3f24;
-}
-
-.legs, .front-legs {
-  position: relative;
-}
-
-.legs .right-leg {
-  position: absolute;
-  top: 61px;
-  left: -57px;
-  width: 50px;
-  height: 25px;
-  border-radius: 100% 50% 0 0;
-  background: #7e5632;
-}
-
-.legs .left-leg {
-  position: absolute;
-  top: 61px;
-  right: -57px;
-  width: 50px;
-  height: 25px;
-  border-radius: 50% 100% 0 0;
-  background: #7e5632;
-}
-
-.front-legs .right-leg {
-  position: absolute;
-  top: 61px;
-  left: 35px;
-  width: 50px;
-  height: 25px;
-  border-radius: 50% 50% 0 0;
-  background: #aa6d34;
-  z-index: 2;
-}
-
-.front-legs .left-leg {
-  position: absolute;
-  top: 61px;
-  right: 45px;
-  width: 50px;
-  height: 25px;
-  border-radius: 50% 50% 0 0;
-  background: #aa6d34;
-  z-index: 2;
-}
-
-[class^='spike-'] {
-  position: absolute;
-}
-
-.spike-1 {
-  top: 120px;
-  left: -35px;
-
-  border-radius: 30px 0 0 10px;
-  border-style: solid;
-  border-width: 0 45px 20px 0;
-  border-color: transparent #5a3f24 transparent transparent;
-
-  transform: rotate(-34deg);
-}
-
-.spike-2 {
-  top: 90px;
-  left: -60px;
-  border-radius: 40px 20px 28px 10px;
-  border-style: solid;
-  border-width: 16px 75px 23px 0;
-  border-color: transparent #5a3f24 transparent transparent;
-  transform: rotate(-12deg);  
-}
-
-.spike-3 {
-  top: 77px;
-  left: -40px;
-  border-radius: 30px 0 0 10px;
-  border-style: solid;
-  border-width: 0 55px 25px 0;
-  border-color: transparent #5a3f24 transparent transparent;
-  transform: rotate(-11deg);
-}
-
-.spike-4 {
-  top: 54px;
-  left: -65px;
-  border-radius: 30px 0 0 10px;
-  border-style: solid;
-  border-width: 0 74px 25px 0;
-  border-color: transparent #5a3f24 transparent transparent;
-  transform: rotate(5deg);
-}
-
-.spike-5 {
-  top: 14px;
-  left: -65px;
-  border-radius: 55px 0 0 0;
-  border-style: solid;
-  border-width: 0 85px 30px 0;
-  border-color: transparent #5a3f24 transparent transparent;
-  transform: rotateX(180deg) rotateZ( -30deg);
-}
-
-.spike-6 {
-  top: -13px;
-  left: -73px;
-  border-radius: 55px 0 0 0;
-  border-style: solid;
-  border-width: 0 105px 27px 0;
-  border-color: transparent #5a3f24 transparent transparent;
-  transform: rotateX(180deg) rotateZ( -45deg);
-}
-
-.spike-7 {
-  top: -50px;
-  left: -40px;
-  border-radius: 40px 15px 20px 0;
-  border-style: solid;
-  border-width: 18px 110px 34px 0;
-  border-color: transparent #5a3f24 transparent transparent;
-  transform: rotate(65deg);
-}
-
-.spike-8 {
-  top: -60px;
-  left: -6px;
-  border-radius: 55px 0 0 0;
-  border-style: solid;
-  border-width: 0 120px 45px 0;
-  border-color: transparent #5a3f24 transparent transparent;
-  transform: rotate( 70deg);
-}
-
-.spike-9 {
-  top: -71px;
-  left: 63px;
-  border-radius: 55px 0 0 0;
-  border-style: solid;
-  border-width: 0 120px 45px 0;
-  border-color: transparent #5a3f24 transparent transparent;
-  transform: rotateX( 180deg) rotateZ( -103deg);
-}
-
-.spike-10 {
-  top: -45px;
-  left: 97px;
-  border-radius: 55px 0 0 0;
-  border-style: solid;
-  border-width: 0 110px 33px 0;
-  border-color: transparent #5a3f24 transparent transparent;
-  transform: rotateZ( 107deg);
-}
-
-.spike-11 {
-  top: -25px;
-  left: 133px;
-  border-radius: 55px 0 0 0;
-  border-style: solid;
-  border-width: 0 98px 53px 0;
-  border-color: transparent #5a3f24 transparent transparent;
-  transform: rotateZ( 127deg);
-}
-
-.spike-12 {
-  top: 37px;
-  left: 165px;
-  border-radius: 75px 0 0 0;
-  border-style: solid;
-  border-width: 0 70px 27px 0;
-  border-color: transparent #5a3f24 transparent transparent;
-  transform: rotateZ( 150deg);
-}
-
-.spike-13 {
-  top: 61px;
-  left: 165px;
-  border-radius: 75px 0 0 0;
-  border-style: solid;
-  border-width: 0 70px 42px 0;
-  border-color: transparent #5a3f24 transparent transparent;
-  transform: rotateZ( 166deg);
-}
-
-.spike-14 {
-  top: 110px;
-  left: 175px;
-  border-radius: 30px 0 0 10px;
-  border-style: solid;
-  border-width: 0 45px 20px 0;
-  border-color: transparent #5a3f24 transparent transparent;
-  transform: rotate(195deg);
-}
-
