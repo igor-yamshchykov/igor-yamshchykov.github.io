@@ -44,3 +44,10 @@ h6 {
 .guide-img {
   cursor: pointer;
 }
+
+@media print {
+    .pagebreak {
+        clear: both;
+        page-break-after: always;
+    }
+}
