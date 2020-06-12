@@ -1,0 +1,17 @@
+@import "bootstrap/dist/css/bootstrap.css";
+
+body {
+  font-family: 'Source Sans Pro', monospace;
+  font-size: 14px;
+}
+
+h6 { 
+  font-size: 1.25rem;
+}
+
+@media print {
+    .pagebreak {
+        clear: both;
+        page-break-after: always;
+    }
+}
