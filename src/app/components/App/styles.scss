@@ -1,0 +1,17 @@
+@import "bootstrap/dist/css/bootstrap.css";
+
+body {
+  font-family: 'Source Sans Pro', monospace;
+  font-size: 14px;
+}
+
+@media print {
+    .pagebreak {
+        clear: both;
+        page-break-after: always;
+    }
+}
+
+.left-bar {
+  background: #44536e;
+}
