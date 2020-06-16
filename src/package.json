@@ -6,6 +6,7 @@
   "scripts": {
     "build": "parcel build index.html --out-dir ../",
     "dev": "parcel serve index.html",
+    "clean": "find .. -type f -not -path \"*src*/*\" -not -path \"*.git*/*\" -delete",
     "lint": "eslint .",
     "beautify": "prettier --write ."
   },
