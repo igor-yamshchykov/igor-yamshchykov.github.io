@@ -1,4 +1,5 @@
 import React from "react";
+import eleks from "~/assets/company-logos/eleks.png";
 import reunite from "~/assets/company-logos/reunite.png";
 import nix from "~/assets/company-logos/n-ix.png";
 import softserve from "~/assets/company-logos/softserve.png";
@@ -7,6 +8,14 @@ import fps from "~/assets/company-logos/freeze_pro_software.png";
 import itera from "~/assets/company-logos/itera.png";
 
 export default [
+  {
+    logoSrc: eleks,
+    data: {
+      "Company Name:": "Eleks",
+      "Position:": "Software Engineer",
+      "Term:": "Sep 2020 - Present"
+    }
+  },
   {
     logoSrc: reunite,
     data: {
@@ -21,7 +30,7 @@ export default [
     data: {
       "Company Name:": "N-iX",
       "Position:": "Software Engineer",
-      "Term:": "Sep 2017 - Present"
+      "Term:": "Sep 2017 - Sep 2020"
     }
   },
   {
