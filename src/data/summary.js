@@ -3,7 +3,7 @@ import React from "react";
 const summary = (
   <>
     <div>
-      &nbsp;&nbsp; I have over 6 years of total experience working with web
+      &nbsp;&nbsp; I have over 8 years of total experience working with web
       development. I am familiar with many popular programming languages,
       frameworks, and methodologies, however, most I am most efficient with
       Python and javascript.

@@ -5,7 +5,7 @@ const pythonFrameworks = (
     <li>Django</li>
     <li>Flask</li>
     <li>Tornado</li>
-    <li>DRF</li>
+    <li>FastAPI</li>
   </ul>
 );
 

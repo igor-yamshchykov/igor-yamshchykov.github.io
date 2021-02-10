@@ -2,6 +2,57 @@ import React from "react";
 
 export default [
   {
+    title: "AI collaborative platform",
+    description:
+      "Project aims to automate operations in AI vision. Configurable platform to deliver ML into the industries. Provides unificated interface for data scientists and non technical users.",
+    duration: "7 months (still working)",
+    techStack: (
+      <ul>
+        <li>Python</li>
+        <li>Flask</li>
+        <li>FastAPI</li>
+        <li>Django</li>
+        <li>Kubernetes</li>
+        <li>SQLAlchemy</li>
+      </ul>
+    ),
+    responsibilities: (
+      <ul>
+        <li>Code writting/analysis</li>
+        <li>Code review</li>
+        <li>Major refactoring</li>
+        <li>Participating in architecture development</li>
+        <li>Unit testing testing</li>
+        <li>CI/CD improvements</li>
+      </ul>
+    )
+  },
+  {
+    title: "Media platform",
+    description:
+      "Norwegian media news sites with posts, advertisement, ships and rigs data. Services is integrated with multiple third-parties to gather data about ships and rigs, also provides statistics etc. Besides that admin area for editors and journalists. ",
+    duration: "3 year 1 months",
+    techStack: (
+      <ul>
+        <li>React + Redux</li>
+        <li>Node.js</li>
+        <li>Express</li>
+        <li>NPM</li>
+        <li>Google API</li>
+        <li>Wordpress(legacy)</li>
+      </ul>
+    ),
+    responsibilities: (
+      <ul>
+        <li>Code writting/analysis</li>
+        <li>Code review</li>
+        <li>Environment setup</li>
+        <li>Involved in frontend/backend architecture implementation</li>
+        <li>Dev tools setup</li>
+      </ul>
+    )
+  },
+  {
     title: "Reunite",
     description:
       "My personal project. Main goal is to help pet owners find their lost pets. Users can set their common locations on the website, whenever other users post an announcement of the lost pet, users whose common location areas intersect with location where pet was lost get notified about new announcement.",
@@ -27,54 +78,6 @@ export default [
         <li>CI setup</li>
         <li>SEO</li>
         <li>Advertisement</li>
-      </ul>
-    )
-  },
-  {
-    title: "Media platform",
-    description:
-      "Norwegian media news sites with posts, advertisement, ships and rigs data. Services is integrated with multiple third-parties to gather data about ships and rigs, also provides statistics etc. Besides that admin area for editors and journalists. ",
-    duration: "2 year 5 months (still working)",
-    techStack: (
-      <ul>
-        <li>React + Redux</li>
-        <li>Node.js</li>
-        <li>Express</li>
-        <li>NPM</li>
-        <li>Google API</li>
-        <li>Wordpress(legacy)</li>
-      </ul>
-    ),
-    responsibilities: (
-      <ul>
-        <li>Code writting/analysis</li>
-        <li>Code review</li>
-        <li>Environment setup</li>
-        <li>Involved in frontend/backend architecture implementation</li>
-        <li>Dev tools setup</li>
-      </ul>
-    )
-  },
-  {
-    title: "Mobile banking application",
-    description: "Mobile banking application",
-    duration: "5 months (currently on support)",
-    techStack: (
-      <ul>
-        <li>Vue.js</li>
-        <li>Node.js</li>
-        <li>Express</li>
-        <li>NPM</li>
-        <li>AWS</li>
-      </ul>
-    ),
-    responsibilities: (
-      <ul>
-        <li>Code writting/analysis</li>
-        <li>Code review</li>
-        <li>Environment setup</li>
-        <li>CI setup</li>
-        <li>Reverse engineering (old code base)</li>
       </ul>
     )
   },
