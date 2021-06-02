@@ -21,7 +21,7 @@ export default [
     data: {
       "Personal Project:": "Reunite",
       "Position:": "Owner/Developer",
-      "Term:": "Feb 2019 - Present",
+      "Term:": "Feb 2019 - Jan 2021",
       "Description:": <a href="https://reunite.com.ua">reunite.com.ua</a>
     }
   },

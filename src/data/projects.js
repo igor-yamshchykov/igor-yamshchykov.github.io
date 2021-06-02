@@ -5,7 +5,7 @@ export default [
     title: "AI collaborative platform",
     description:
       "Project aims to automate operations in AI vision. Configurable platform to deliver ML into the industries. Provides unificated interface for data scientists and non technical users.",
-    duration: "7 months (still working)",
+    duration: "11 months (still working)",
     techStack: (
       <ul>
         <li>Python</li>
@@ -56,7 +56,7 @@ export default [
     title: "Reunite",
     description:
       "My personal project. Main goal is to help pet owners find their lost pets. Users can set their common locations on the website, whenever other users post an announcement of the lost pet, users whose common location areas intersect with location where pet was lost get notified about new announcement.",
-    duration: "1 year 5 months (still working)",
+    duration: "2 years",
     techStack: (
       <ul>
         <li>Python</li>
