@@ -49,7 +49,8 @@ const LeftBar = () => (
     <SeparatorLine />
     <Section title="Web Services/Tools:" name="developer-tools">
       <div className="text-light">
-        AWS, Digital Ocean, Docker, Vargant, NGINX, WSGI, Jenkins, CircleCI
+        AWS, Digital Ocean, Docker, Vargant, NGINX, WSGI, Jenkins, CircleCI,
+        Kubernetes, Rabbitmq
       </div>
     </Section>
     <SeparatorLine />
