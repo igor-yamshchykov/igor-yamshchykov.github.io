@@ -5,7 +5,7 @@ export default [
     title: "AI collaborative platform",
     description:
       "Project aims to automate operations in AI vision. Configurable platform to deliver ML into the industries. Provides unificated interface for data scientists and non technical users.",
-    duration: "11 months (still working)",
+    duration: "11 months",
     techStack: (
       <ul>
         <li>Python</li>

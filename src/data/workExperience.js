@@ -13,7 +13,7 @@ export default [
     data: {
       "Company Name:": "Eleks",
       "Position:": "Software Engineer",
-      "Term:": "Sep 2020 - Present"
+      "Term:": "Sep 2020 - June 2021"
     }
   },
   {
