@@ -22,9 +22,16 @@ const MainContent = () => (
       className="mt-1"
       textClass="mt-3 text-dark"
     >
-      {data.workExperience.map(e => (
+      {data.workExperience.map((e) => (
         <Fragment key={e.logoSrc}>
-          <LogoTextBlock logoSrc={e.logoSrc} data={e.data} />
+          <div>
+            <LogoTextBlock
+              logoSrc={e.logoSrc}
+              data={e.data}
+              responsibilities={e.responsibilities}
+              achivements={e.achivements}
+            />
+          </div>
           <SeparatorLine />
         </Fragment>
       ))}
@@ -35,24 +42,8 @@ const MainContent = () => (
       className="mt-1"
       textClass="mt-3 text-dark"
     >
-      {data.education.map(e => (
+      {data.education.map((e) => (
         <LogoTextBlock icon={e.icon} data={e.data} />
-      ))}
-    </Section>
-    <SeparatorLine />
-    <Section
-      title="Certifications"
-      name="certifications"
-      className="mt-1"
-      textClass="mt-3 text-dark"
-    >
-      {data.certifications.map(e => (
-        <LogoTextBlock
-          key={e}
-          link={e.link}
-          logoSrc={e.logoSrc}
-          data={e.data}
-        />
       ))}
     </Section>
   </>

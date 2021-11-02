@@ -6,6 +6,7 @@ import Photo from "./components/Photo";
 import Contacts from "./components/Contacts";
 import Location from "./components/Location";
 import TableLayout from "./components/TableLayout";
+import RowLayout from "./components/RowLayout";
 
 const LeftBar = () => (
   <div className="mb-2">
@@ -41,23 +42,15 @@ const LeftBar = () => (
     </Section>
     <SeparatorLine />
     <Section title="Databases:" name="databases">
-      <TableLayout
-        tableData={data.databases}
-        tableSettings={data.databases.settings}
-      />
+      <RowLayout data={data.databases} />
     </Section>
     <SeparatorLine />
-    <Section title="Web Services/Tools:" name="developer-tools">
-      <div className="text-light">
-        AWS, Digital Ocean, Docker, Vargant, NGINX, WSGI, Jenkins, CircleCI,
-        Kubernetes, Rabbitmq
-      </div>
+    <Section title="Web Services:" name="developer-tools">
+      <RowLayout data={data.webServices} />
     </Section>
     <SeparatorLine />
-    <Section title="Also Familiar:" name="secondary-tools">
-      <div className="text-light">
-        HTML, CSS, Responsive Web Design, Bootstrap
-      </div>
+    <Section title="Devops Tools:" name="secondary-tools">
+      <RowLayout data={data.devops} />
     </Section>
   </div>
 );

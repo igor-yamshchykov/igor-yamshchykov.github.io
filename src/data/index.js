@@ -3,6 +3,8 @@ import languages from "./languages";
 import programmingLanguages from "./programmingLanguages";
 import frameworks from "./frameworks";
 import databases from "./databases";
+import webServices from "./webservices";
+import devops from "./devops";
 import summary from "./summary";
 import workExperience from "./workExperience";
 import education from "./education";
@@ -15,6 +17,8 @@ export default {
   programmingLanguages,
   frameworks,
   databases,
+  webServices,
+  devops,
   summary,
   workExperience,
   education,

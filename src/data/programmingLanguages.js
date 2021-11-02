@@ -1,5 +1,5 @@
 export default {
-  data: [["Python", "( 4+ years )"], ["Javascript", "( 5+ years )"]],
+  data: [["Python", "primary"], ["Javascript", "secondary"], ["Golang", "basic"]],
   settings: {
     data: [{}, { className: "text-center" }]
   }

@@ -24,36 +24,6 @@ const App = () => (
         </div>
       </div>
     </div>
-    <Pagebreak />
-    <div className="content">
-      <div className="container">
-        <div className="row">
-          <div className="col-12 px-0">
-            <Section
-              title="Recent Projects"
-              name="recent-projects"
-              className="mt-1"
-              textClass="mt-3 text-dark"
-            >
-              <div className="row">
-                {data.projects.map(e => (
-                  <div className="col-12 col-md-4">
-                    <ProjectCard
-                      key={e.title}
-                      title={e.title}
-                      description={e.description}
-                      duration={e.duration}
-                      techStack={e.techStack}
-                      responsibilities={e.responsibilities}
-                    />
-                  </div>
-                ))}
-              </div>
-            </Section>
-          </div>
-        </div>
-      </div>
-    </div>
     <PrintButton />
     <Modal />
     <Backdrop />
