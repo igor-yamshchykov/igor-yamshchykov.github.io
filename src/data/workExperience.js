@@ -14,7 +14,7 @@ export default [
     data: {
       "Company Name:": "Vector Software",
       "Position:": "Software Engineer",
-      "Term:": "Aug 2021 - Current",
+      "Term:": "Aug 2021 - Jan 2022",
       "Project:": "Solution for managing restaurants and food delivery process"
     },
     achivements: [
