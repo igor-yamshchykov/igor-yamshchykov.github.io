@@ -7,8 +7,17 @@ import techmagic from "~/assets/company-logos/techmagic.png";
 import fps from "~/assets/company-logos/freeze_pro_software.png";
 import itera from "~/assets/company-logos/itera.png";
 import vector from "~/assets/company-logos/vector.png";
+import ff from "~/assets/company-logos/15-five.svg";
 
 export default [
+  {
+    logoSrc: ff,
+    data: {
+      "Company Name:": "15 Five",
+      "Position:": "Senior Backend Engineer",
+      "Term:": "Apr 2022 - Present",
+    }
+  },
   {
     logoSrc: vector,
     data: {
@@ -62,13 +71,11 @@ export default [
       "Position:": "Software Engineer",
       "Term:": "Sep 2017 - Sep 2020",
       "Project:":
-        "Norwegian media news sites with posts, advertisement, ships and rigs data. Services is integrated with multiple third-parties to gather data about ships and rigs, also provides statistics etc. Besides that admin area for editors and journalists."
+        "Norwegian media news sites."
     },
     achivements: [
       "Successfully developed and delivered 2 subprojects",
-      "Extended functionality of existing project",
       "Participated in complete project rearch, migrated to new version",
-      "Successfully merged subprojects into newly developed platform"
     ]
   },
   {
