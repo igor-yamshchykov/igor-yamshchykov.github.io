@@ -13,7 +13,7 @@ export default [
   {
     logoSrc: ff,
     data: {
-      "Company Name:": "15 Five",
+      "Company Name:": "15Five",
       "Position:": "Senior Backend Engineer",
       "Term:": "Apr 2022 - Present",
     }
