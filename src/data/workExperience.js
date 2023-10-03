@@ -51,10 +51,10 @@ export default [
   {
     logoSrc: reunite,
     data: {
-      "Personal Project:": "Reunite",
+      "Personal Project:": "Reunite (Suspended)",
       "Position:": "Owner/Developer",
       "Term:": "Feb 2019 - Jan 2021",
-      "Project:": <a href="https://reunite.com.ua">reunite.com.ua</a>
+      "Project:": <a href="https://web.archive.org/web/20221006162038/https://reunite.com.ua/en/">reunite.com.ua</a>
     },
     achivements: [
       "Created wireframes",
